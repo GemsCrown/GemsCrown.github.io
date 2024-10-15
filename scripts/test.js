@@ -1,4 +1,5 @@
 const tiger = document.getElementById("tiger");
+const images = document.getElementsByTagName("img");
 
 const degs = 5;
 let rotation = degs;

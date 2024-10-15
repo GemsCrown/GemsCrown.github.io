@@ -24,9 +24,15 @@ li {
   font-variation-settings: "slnt" 0;
 }
 
+h1 {
+  font-size: 48;
+  color: white;
+  margin-left: 1em;
+}
+
 main {
   margin-left: 15%;
-  padding: 1px 16px;
+  padding: 0.5em 16px;
   height: 100vh;
 }
 

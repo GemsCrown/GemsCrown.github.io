@@ -1,31 +1,30 @@
-const tiger = document.getElementById("tiger");
-const images = document.getElementsByTagName("img");
-
+const pageImages = document.getElementsByTagName("img");
 const degs = 5;
+const images = [];
 
-const rotation = [];
-console.log(images);
-Array.from(images).forEach((element, index) => {
+Array.from(pageImages).forEach((element, index) => {
   console.log("element: ", element);
   console.log("index", index);
-  rotation[index] = {
+  images[index] = {
     element: element,
     angle: degs,
+    live: false,
   };
-  rotation[index].angle = degs;
-  rotation[index]?.element.addEventListener("click", () => {
-    if (rotation[index]?.live) {
-      clearInterval(rotation[index].timer);
-      rotation[index].live = false;
+  images[index]?.element.addEventListener("click", () => {
+    if (images[index].live) {
+      clearInterval(images[index].timer);
+      images[index].live = false;
     } else {
-      rotation[index].timer = setInterval(() => {
-        if (rotation[index].angle == 365) {
-          rotation[index].angle = degs;
+      images[index].timer = setInterval(() => {
+        if (images[index].angle == 365) {
+          images[index].angle = degs;
         } else {
-          rotation[index].angle += degs;
+          images[index].angle += degs;
         }
-        tiger.style.transform = `rotate(${rotation[index].angle}deg)`;
-        rotation[index].live = true;
+        images[
+          index
+        ].element.style.transform = `rotate(${images[index].angle}deg)`;
+        images[index].live = true;
       }, 50);
     }
   });

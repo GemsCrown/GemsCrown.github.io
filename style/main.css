@@ -87,3 +87,27 @@ li a:hover:not(.active) {
   width: 14.4em;
   margin-top: 2.8em;
 }
+
+#dolphin {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+#planes {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#plane1 {
+  width: 60%;
+}
+#plane2 {
+  width: 33.3312%;
+}
+
+#feijoada {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}

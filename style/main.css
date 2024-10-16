@@ -22,6 +22,10 @@ menu {
   font-style: normal;
 }
 
+.fontSize1 {
+  font-size: 22px;
+  font-family: "Afacad Flux", sans-serif;
+}
 h1,
 h2,
 h3,

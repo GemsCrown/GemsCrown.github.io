@@ -36,6 +36,10 @@ li {
   font-variation-settings: "slnt" 0;
 }
 
+.afacadFlux {
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 20;
+}
 h1 {
   font-size: 48;
   color: white;

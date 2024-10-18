@@ -16,6 +16,15 @@ menu {
   );
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centerText {
+  text-align: center;
+}
 .poemFont {
   font-family: "Sofia", cursive;
   font-weight: 400;

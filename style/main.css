@@ -49,11 +49,16 @@ li {
   font-family: "Afacad Flux", sans-serif;
   font-size: 20;
 }
+
 h1 {
   font-size: 48;
   color: white;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 2em;
+}
+
+#hermitcraft {
+  margin-top: 1em;
 }
 
 menu {
